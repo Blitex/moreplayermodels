@@ -1,0 +1,16 @@
+[
+{
+  "modid": "moreplayermodels",
+  "name": "MorePlayerModels",
+  "description": "More player models lets you edit your player model to your hearts content",
+  "version": "1.10.2",
+  "mcversion": "1.10.2",
+  "url": "http://www.kodevelopment.nl/minecraft/moreplayermodels/",
+  "updateUrl": "",
+  "authorList": ["Noppes"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

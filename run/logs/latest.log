@@ -1,0 +1,90 @@
+[15:53:52] [Client thread/INFO]: Setting user: Player153
+[15:53:55] [Client thread/WARN]: Skipping bad option: lastServer:
+[15:53:55] [Client thread/INFO]: LWJGL Version: 2.9.4
+[15:54:00] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MorePlayerModels
+[15:54:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:54:03] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[15:54:03] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:03] [Thread-9/INFO]: OpenAL initialized.
+[15:54:04] [Sound Library Loader/INFO]: Sound engine started
+[15:54:07] [Client thread/INFO]: Created: 16x16 textures-atlas
+[15:54:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MorePlayerModels
+[15:54:10] [Client thread/INFO]: SoundSystem shutting down...
+[15:54:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:54:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:54:10] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[15:54:10] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:54:10] [Thread-11/INFO]: OpenAL initialized.
+[15:54:11] [Sound Library Loader/INFO]: Sound engine started
+[15:54:13] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[15:54:14] [Client thread/WARN]: Skipping bad option: lastServer:
+[15:54:14] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[15:54:17] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[15:54:17] [Server thread/INFO]: Generating keypair
+[15:54:18] [Server thread/INFO]: Preparing start region for level 0
+[15:54:19] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:54:38] [Server thread/INFO]: Player153[local:E:484b22cf] logged in with entity id 249 at (-5.858985155299334, 82.0, 109.40033886520672)
+[15:54:38] [Server thread/INFO]: Player153 joined the game
+[15:54:39] [Server thread/INFO]: Saving and pausing game...
+[15:54:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:54:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:54:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:54:39] [Client thread/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5d155b69[id=94590a34-bd24-3d07-8605-517566cb65fe,name=Player153,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at noppes.mpm.client.RenderEvent.loadPlayerResource(RenderEvent.java:194) [RenderEvent.class:?]
+	at noppes.mpm.client.RenderEvent.hand(RenderEvent.java:245) [RenderEvent.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_17_RenderEvent_hand_RenderHandEvent.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:68) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:159) [EventBus.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.renderFirstPersonHand(ForgeHooksClient.java:168) [ForgeHooksClient.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderHand(EntityRenderer.java:808) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1460) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1282) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1091) [EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1139) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:26) [start/:?]
+[15:54:39] [Thread-8/INFO]: [CHAT] §2MorePlayerModels§f installed. More info at §9§nClick here
+[15:54:49] [Server thread/INFO]: Player153 has just earned the achievement [Taking Inventory]
+[15:54:49] [Client thread/INFO]: [CHAT] Player153 has just earned the achievement [Taking Inventory]
+[15:54:55] [Server thread/INFO]: Saving and pausing game...
+[15:54:55] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:54:55] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:54:55] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:54:56] [Client thread/INFO]: Stopping!
+[15:54:56] [Client thread/INFO]: SoundSystem shutting down...
+[15:54:56] [Server thread/INFO]: Stopping server
+[15:54:56] [Server thread/INFO]: Saving players
+[15:54:56] [Server thread/INFO]: Saving worlds
+[15:54:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[15:54:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[15:54:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[15:54:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:54:56] [Client Shutdown Thread/INFO]: Stopping server
+[15:54:56] [Client Shutdown Thread/INFO]: Saving players
+[15:54:56] [Client Shutdown Thread/INFO]: Saving worlds

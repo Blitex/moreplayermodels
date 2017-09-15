@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/more player models.iml" filepath="$PROJECT_DIR$/more player models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/more_player_models_api.iml" filepath="$PROJECT_DIR$/.idea/modules/more_player_models_api.iml" group="more player models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/more_player_models_main.iml" filepath="$PROJECT_DIR$/.idea/modules/more_player_models_main.iml" group="more player models" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/more_player_models_test.iml" filepath="$PROJECT_DIR$/.idea/modules/more_player_models_test.iml" group="more player models" />
+    </modules>
+  </component>
+</project>
